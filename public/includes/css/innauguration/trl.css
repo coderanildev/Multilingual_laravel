@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+<!-- 	background: url(http://niscpr.res.in/includes/images/innauguration/trl/Inauguration-sample.jpg) no-repeat; -->	
+    background-size: 70%;
+    background-position: 50% 40px;
+    height: 100%;
+    background-attachment: fixed !important;
+
+}
+img {
+	border: none;
+}
+.leftcurtain {
+	width: 50%;
+	height:100vh;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: 2;
+}
+.rightcurtain {
+	width: 51%;
+	height:100vh;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: 3;
+}
+.rightcurtain img, .leftcurtain img {
+	width: 100%;
+	height: 100%;
+}
+.logo {
+	margin: 0px auto;
+	margin-top: 100px;
+}
+.rope {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index:20;
+	width: 100vw;
+    background: #77000c;
+    height: 45px;
+	text-align:center;
+}
+.rope img{margin-top:-35px;}
+.top-bg {
+	background: url('http://niscpr.res.in/includes/images/innauguration/trl/top-bg.png') repeat-x;
+	min-height: 100px;
+}
+#read-more {
+	text-align: center;
+	margin-top: 20px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background: url('http://niscpr.res.in/includes/images/innauguration/trl/button.png') center center no-repeat !important;
+	-webkit-transition-duration: 700ms;
+	-moz-transition-duration: 700ms;
+	-o-transition-duration: 700ms;
+	transition-duration: 700ms;
+	height: 43px;
+}
+#read-more:hover {
+	background: url('http://niscpr.res.in/includes/images/innauguration/trl/button-hover.png') center center no-repeat !important;
+	-webkit-transition-duration: 700ms;
+	-moz-transition-duration: 700ms;
+	-o-transition-duration: 700ms;
+	transition-duration: 700ms;
+}
+.emblem {
+	position: absolute;
+	top: 8%;
+	left: 47%;
+	width: 68px;
+	height: 87px;
+	background: url('http://niscpr.res.in/includes/images/innauguration/trl/emblem.png') center center no-repeat !important;
+}
+.content-box{
+    width:100%;
+    max-width: 735px;
+    margin:0 auto;
+    position:absolute;
+    transform: translateX(-50%) translateY(-22%);
+    left: 50%;
+    top: 30%;
+    color:#fff;
+    background: rgba(0, 0, 0, 0.49);
+    padding: 20px 5px;
+    border: 2px solid #d2a13a;
+    line-height: 30px;
+    }
+.content-box h1{font-size: 170%;line-height: 40px;}
+.content-box h3, h4{font-weight: 400;font-size: 135%;}
+.website-link{margin-top:100px;}
+
+.web-box{width:100%; max-width:635px; margin:0 auto;position:absolute;transform: translateX(-50%) translateY(-20%);
+    left: 50%;bottom:-30px; color:#fff;}
+	
+	.clikimg{   position:absolute; left:0; bottom:0;
+    width: 100%;}
+.cut-of{position:fixed; bottom:0; left:35%; top:70%; transform: translateX(50%) translateY(45%); width:195px; height:128px;}	
+
+.content-box {
+    width: 100%;
+    max-width: 127vh;
+    margin: 0 auto;
+    position: absolute;
+    transform: translateX(-50%) translateY(-22%);
+    left: 50%;
+    top: 25%;
+   <!--  background: url(http://niscpr.res.in/includes/images/innauguration/trl/Inauguration-sample.jpg) no-repeat; -->
+    padding: 10px 5px;
+    min-height: 75vh;
+    background-size: 100%;
+}
+.welcome {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.top_curtain {
+    position: absolute;
+    z-index: 16;
+    background: url(http://niscpr.res.in/includes/images/innauguration/trl/top_curtain.png) no-repeat;
+    width: 100%;
+    height: 65vh;
+    background-size: contain;
+    top: 0;
+}	
+.screen-up {
+    background: url(http://niscpr.res.in/includes/images/innauguration/trl/frontcurtain.png) repeat-x;
+    top:-55px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	z-index:10;
+}
+.screen-up:after{content:''; background: url(http://niscpr.res.in/includes/images/innauguration/trl/frontcurtain3.png) repeat-x; position: absolute; bottom:-55px; width:100%; height:67px;}
+.up{
+	transition: all 9s ease-out;
+	top:-120%;
+}
+.dot{
+  width:35px;
+  height:35px;
+  position:absolute;
+  background: url(http://niscpr.res.in/includes/images/innauguration/trl/rose.png);
+  background-size: 100% 100%;
+}
+#flowers{    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow-x: hidden;
+	overflow-y:hidden;
+    height: 100vh;}
+	
+	.logo-svg svg-icon svg-fill{
+	display:none!important;}

@@ -1,0 +1,1663 @@
+@media only screen and (min-width: 1441px) {
+
+	.video-container{
+		margin-top: 5px;
+		height: 60vh;
+	}
+
+	#announcement-pannel{
+		margin-top:5px;
+		overflow: hidden;
+		height: 60vh;
+	}
+
+	#video-bg {
+	  position: relative;
+	  width: 100%;
+	  background: transparent url(video-bg.jpg) no-repeat;
+	  background-size: cover;
+	  object-fit:fill;
+	  height: 100%;
+	}
+	video {
+	  display: block;
+	}
+	
+	.nis-box-shadow{
+		padding:0.5rem;
+	}
+	.header .tophead ul li a {
+		font-size: 16px;
+	}
+
+	.header .tophead ul li a i{
+		font-size: 20px;
+	}
+
+	.header .tophead .social{
+		padding: 0.2rem;
+		text-align:right;
+	}
+	.header .tophead .social li{
+		margin-right: 20px;
+	}
+	.header .tophead .social li:last-child{
+		margin-right: 0px;
+	}
+
+	.header .tophead .social li form input{
+		padding: 8px 10px;
+		width: 15rem
+	}
+	.header .tophead .social li form button{
+		padding: 0.330rem .70rem;
+		margin-left:2px;
+	}
+
+	.header .nav li a{
+		font-size: 16px;
+		padding: 8px 4px;
+	}
+	.header .nav li:hover a, 
+	.header .nav li.active a{
+		font-size: 16px;
+		padding: 8px 4px;
+	}
+	.header .nav li a i{
+		margin-left: 1px;
+	}
+	
+	.header .nav li .dropdown {
+		width: 250px;
+	}
+	
+	.header .nav li .dropdown li a {
+		padding: 5px 10px;
+	}
+
+	.news-content {
+		padding: 0.5rem;
+	}
+	.news-content ul li a{
+		font-size: 1.7rem;
+	}
+	.section-title-new h4 {
+		font-size: 2rem;
+	}
+	.section-title h4{
+		font-size: 2rem;
+	}
+	#visionaries{
+		height:44rem;
+		overflow-y: scroll;
+	}
+	
+	#sicenceaajkal{
+		height: 54.3vh;
+		overflow-y: scroll;
+	}
+	
+	.highlights{
+		padding: 0rem 0.5rem;
+		height:45rem;
+		overflow-y: scroll;
+	}
+	
+	.highlights .highlights-header h6{
+		font-size: 1.2rem;
+	}
+	.highlights .highlights-footer p{
+		font-size: 1rem;
+	}
+	.visionaries-slider .visionaries-image img{
+		height: 20rem;
+	}
+	.visionaries-slider .visionaries-text p{
+		font-size: 1rem;
+	}
+	.visionaries-slider .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	.visionaries-slider .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	
+	.science-aaj-kal iframe{
+		height: 18rem; 
+		width:100%;
+	}
+	.csir-flash marquee{
+		height: 18rem; 
+		width:100%;
+	}
+	.announcement-marquee{
+		padding: 0rem 0.3rem;
+	}
+	.announcement-marquee ul li a{
+		font-size: 1rem;
+	}
+	
+	.events .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.events .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	
+	.publication .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .single-publication img{
+		height: 24rem;
+		width: 100%;
+	}
+	
+	.facilities .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .single-facilities img {
+		height: 18rem;
+		width: 100%;
+	}
+	.facilities .facilities-head{
+		position: absolute;
+		top: 94%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.facilities .facilities-head h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1.2rem;
+	}
+	
+	.facilities .facilities-head-nsl{
+		position: absolute;
+		top: 94%;
+		left: 40%;
+		transform: translate(-40%, -60%);
+	}
+	.facilities .facilities-head-nsl h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1.2rem;
+		color: #A01F40;
+	}
+	
+	.video-gallery-slider .video-gallery iframe{
+		height: 20rem; 
+		width:100%;
+	}
+	
+	.slogan-content{
+		padding: 1rem 1rem 0.5rem 1rem;
+		background-color: #A01F40;
+		color: #fff;
+		font-family: "Carter One";
+	}
+	.slogan-content marquee{
+		margin-top:5px 0px; 
+	}
+	.slogan-content marquee div{
+		font-size:2rem;
+		padding:2rem;
+		font-weight:bold; 
+	}
+
+	.footer .footer-reach-us .footer-institute-name{
+		text-align:center;
+		font-size: 1.1rem;
+		padding: 5px;
+	}
+
+	.footer-reach-us .left-address{
+		text-align: center;
+	}
+	.footer-reach-us .right-address{
+		text-align: center;
+	}
+	.footer .footer-reach-us .footer-map{
+		height: 150px;
+		width: 98%;
+		margin: 0rem auto
+	}
+	.footer-mobile-app a img{
+		height: 33%;
+		width: 33%;
+	}
+	.footer .online-services{
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 1300px) and (max-width: 1440px) {
+	.footer .footer-reach-us{
+		margin-bottom: 5px;
+	}
+	.footer .footer-reach-us .footer-institute-name{
+		font-size: .9rem;
+		padding: 5px 10px;
+	}
+	.footer-reach-us address {
+		font-size: 1rem;
+	}
+	.footer .footer-reach-us .footer-map{
+		height: 110px;
+	}
+	.footer-mobile-app a img{
+		height: 33%;
+		width: 33%;
+	}
+	.footer .online-services{
+		font-size: 1rem;
+		margin-bottom: 5px;
+		padding: 7px;
+	}
+}
+@media (min-width: 1025px) and (max-width: 1299px) {
+	.footer .footer-reach-us{
+		margin-bottom: 5px;
+	}
+	.footer .footer-reach-us .footer-institute-name{
+		font-size: .7rem;
+		padding: 5px 10px;
+	}
+	.footer-reach-us address {
+		font-size: 1rem;
+	}
+	.footer .footer-reach-us .footer-map{
+		height: 120px;
+	}
+	.footer-mobile-app a img{
+		height: 33%;
+		width: 33%;
+	}
+	.footer .online-services{
+		font-size: 1rem;
+		margin-bottom: 5px;
+		padding: 7px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	
+	.video-container{
+		margin-top: 2px;
+		height: 50vh;
+	}
+
+	#announcement-pannel{
+		margin-top: 2px;
+		overflow: hidden;
+		height: 50vh;
+	}
+
+	#video-bg {
+	  position: relative;
+	  width: 100%;
+	  background: transparent url(video-bg.jpg) no-repeat;
+	  background-size: cover;
+	  object-fit:fill;
+	  height: 100%;
+	}
+	video {
+	  display: block;
+	}
+
+	.director-message{
+		min-height: 76vh;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+
+	.announcements-div{
+		margin-top: 5px;
+		min-height: 76vh;
+	}
+
+	.announcements-div marquee{
+		height: 80vh;
+	}
+	
+	.nis-box-shadow{
+		padding:0.5rem;
+	}
+
+	.header .tophead .language li{
+		text-align: left;
+	}
+	
+	.header .tophead .social{
+		padding: 0.2rem;
+		text-align:right;
+	}
+	.header .tophead .social li{
+		margin-right: 10px;
+	}
+	.header .tophead .social li:last-child{
+		margin-right: 0px;
+	}
+	.header .tophead .social li form input{
+		padding: 0.3rem .70rem;
+		width: 10rem
+	}
+	.header .tophead .social li form button{
+		padding: 0.330rem .70rem;
+		margin-left:2px;
+	}
+	
+	.header .nav li a{
+		font-size: 14px;
+		padding: 8px 4px;
+	}
+	.header .nav li:hover a, 
+	.header .nav li.active a{
+		font-size: 14px;
+		padding: 8px 4px;
+	}
+	.header .nav li a i{
+		margin-left: 1px;
+	}
+	
+	.header .nav li .dropdown {
+		width: 200px;
+	}
+	
+	.header .nav li .dropdown li a {
+		padding: 2px 10px;
+	}
+
+	.news-content {
+		padding: 0.2rem;
+	}
+	.news-content ul li a{
+		font-size: 1.1rem;
+	}
+	
+	.section-title-new h4 {
+		font-size: 1.1rem;
+	}
+	.section-title h4{
+		font-size: 1.1rem;
+	}
+	
+	.footer .footer-heading h4 {
+		font-size: 1rem;
+	}
+	
+	#visionaries{
+		height:48.3rem;
+		overflow-y: scroll;
+	}
+	
+	#sicenceaajkal{
+		height:25.6rem;
+		overflow-y: scroll;
+	}
+	
+	.highlights{
+		padding: 0rem 0.5rem;
+		height: 43rem;
+		overflow-y: scroll;
+	}
+	
+	.highlights .highlights-header h6{
+		font-size: 1.5rem;
+	}
+	.highlights .highlights-footer p{
+		font-size: 1rem;
+	}
+	.visionaries-slider .visionaries-image img{
+		height: 15rem;
+	}
+	.visionaries-slider .visionaries-text p{
+		font-size: 1rem;
+	}
+	.visionaries-slider .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	.visionaries-slider .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	
+	.science-aaj-kal iframe{
+		height: 19.2rem; 
+		width:100%;
+	}
+
+	.announcement-marquee{
+		padding: 0rem 0.3rem;
+	}
+	.announcement-marquee ul li a{
+		font-size: 0.9rem;
+	}
+	
+	.events .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.events .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	
+	.publication .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .single-publication img{
+		height: 18rem;
+		width: 100%;
+	}
+	
+	.facilities .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .single-facilities img {
+		height: 18rem;
+		width: 100%;
+	}
+	.facilities .facilities-head{
+		position: absolute;
+		top: 94%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.facilities .facilities-head h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1rem;
+	}
+	
+	.facilities .facilities-head-nsl{
+		position: absolute;
+		top: 94%;
+		left: 45%;
+		transform: translate(-45%, -55%);
+	}
+	.facilities .facilities-head-nsl h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1rem;
+		color: #A01F40;
+	}
+	
+	.video-gallery-slider .video-gallery iframe{
+		height: 18rem; 
+		width:100%;
+	}
+	
+	.slogan-content{
+		padding: 1rem 1rem 0.5rem 1rem;
+		background-color: #A01F40;
+		color: #fff;
+		font-family: "Carter One";
+	}
+	.slogan-content marquee{
+		margin-top:5px 0px; 
+	}
+	.slogan-content marquee div{
+		font-size:2rem;
+		padding:2rem;
+		font-weight:bold; 
+	}
+	.govtlogo .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.govtlogo .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+	.footer .footer-reach-us{
+		margin-bottom: 5px;
+	}
+	.footer .footer-reach-us .footer-institute-name{
+		font-size: .7rem;
+		padding: 5px 10px;
+	}
+	.footer-reach-us address {
+		font-size: 0.7rem;
+	}
+	.footer .footer-reach-us .footer-map{
+		height: 120px;
+	}
+	.footer-mobile-app a img{
+		height: 33%;
+		width: 33%;
+	}
+	.footer .online-services{
+		font-size: 0.7rem;
+		margin-bottom: 5px;
+		padding: 7px;
+	}
+	.visitors-list{
+		font-size: 0.7rem;
+	}
+	.footer .footer-email{
+		font-size: 0.7rem;
+	}
+}
+@media (min-width: 769px) and (max-width: 991px){
+	.footer .footer-heading h2{
+		font-size: 1.5rem;
+	}
+	.footer .footer-reach-us{
+		margin-bottom: 5px;
+	}
+	.footer .footer-reach-us .footer-institute-name{
+		font-size: .7rem;
+		padding: 2px;
+	}
+	.footer-reach-us address {
+		font-size: 0.7rem;
+	}
+	.footer .footer-reach-us .footer-map{
+		height: 80px;
+	}
+	.footer .footer-social-icon a img{
+		height: 35%;
+		width: 35%;
+	}
+	.footer-mobile-app a img{
+		height: 35%;
+		width: 35%;
+	}
+	.footer .online-services{
+		font-size: 0.7rem;
+		margin-bottom: 5px;
+		padding: 6px;
+	}
+	.visitors-list{
+		font-size: 0.7rem;
+	}
+	.footer .footer-email{
+		font-size: 0.7rem;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	.video-container{
+		margin-top: 2px;
+		height: 40vh;
+	}
+
+	#announcement-pannel{
+		margin-top:2px;
+		overflow: hidden;
+		height: 40vh;
+	}
+
+	#video-bg {
+	  position: relative;
+	  width: 100%;
+	  background: transparent url(video-bg.jpg) no-repeat;
+	  background-size: cover;
+	  object-fit:fill;
+	  height: 100%;
+	}
+	video {
+	  display: block;
+	}
+	
+	.overlayText {
+		top:92%;
+		left:10%;
+	}
+
+	.container{
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+
+	.director-message{
+		min-height: 87vh;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+
+	.announcements-div{
+		margin-top: 5px;
+		min-height: 87vh;
+	}
+
+	.announcements-div marquee{
+		height: 84vh;
+	}	
+
+	.nis-box-shadow{
+		padding:0.5rem;
+	}
+	.header .tophead ul li a {
+		font-size: 14px;
+	}
+	.header .tophead .language{
+		margin-top: 0.5rem;
+	}
+	.header .tophead .language li{
+		text-align: left;
+	}
+	.header .tophead .social{
+		padding: 0.2rem;
+		text-align:right;
+	}
+	.header .tophead .social li{
+		margin-right: 5px;
+	}
+	.header .tophead .social li:last-child{
+		margin-right: 0px;
+	}
+	.header .tophead .social li form{
+		margin-left: 5px;
+	}
+	.header .tophead .social li form input{
+		padding: 0.175rem .70rem;
+		width: 10rem
+	}
+	.header .tophead .social .top-search-button{
+		padding: 0.230rem 0.6rem;
+		margin-left:2px;
+	}
+	
+	.header .nav li a{
+		font-size: 14px;
+		padding: 3px 2px;
+	}
+	.header .nav li:hover a, 
+	.header .nav li.active a{
+		font-size: 14px;
+		padding: 3px 2px;
+	}
+	.header .nav li a i{
+		margin-left: 1px;
+	}
+	
+	.header .nav li .dropdown {
+		width: 150px;
+	}
+	
+	.header .nav li .dropdown li a {
+		padding: 2px 10px;
+	}
+
+	.news-content {
+		padding: 0.2rem;
+	}
+	.news-content ul li a{
+		font-size: 0.9rem;
+	}
+	
+	.csr-content h4{
+		font-size: 0.6rem;
+	}
+
+	.section-title-new h4 {
+		font-size: 0.9rem;
+	}
+	.section-title h4{
+		font-size: 0.9rem;
+	}
+	
+	.footer .footer-heading h4 {
+		font-size: 0.9rem;
+	}
+	
+	#visionaries{
+		height:48.3rem;
+		overflow-y: scroll;
+	}
+	
+	#sicenceaajkal{
+		height:25.6rem;
+		overflow-y: scroll;
+	}
+	
+	.highlights{
+		padding: 0rem 0.5rem;
+		height:30.3rem;
+		overflow-y: scroll;
+	}
+	.highlights .highlights-header h6{
+		text-align: justify;
+		font-size: 1.2rem;
+	}
+	.highlights .highlights-footer p{
+		font-size: 1rem;
+	}
+	
+	.visionaries-slider{
+		padding: 0rem 0.5rem;
+		max-height:30rem;
+		overflow-y: scroll;
+	}
+	.visionaries-slider .visionaries-image img{
+		height: 13rem;
+	}
+	.visionaries-slider .visionaries-text p{
+		font-size: 1rem;
+	}
+	.visionaries-slider .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	.visionaries-slider .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	
+	.science-aaj-kal iframe{
+		height: 13.5rem; 
+		width:100%;
+	}
+
+	.announcement-marquee{
+		padding: 0rem 0.3rem;
+	}
+	.announcement-marquee ul li a{
+		font-size: 0.9rem;
+	}
+	
+	.events .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.events .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	
+	.publication .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .single-publication img{
+		height: 17rem;
+		width: 100%;
+	}
+	
+	.facilities .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .single-facilities img {
+		height: 18rem;
+		width: 100%;
+	}
+	.facilities .facilities-head{
+		position: absolute;
+		top: 94%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.facilities .facilities-head h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1rem;
+	}
+	
+	.facilities .facilities-head-nsl{
+		position: absolute;
+		top: 94%;
+		left: 45%;
+		transform: translate(-45%, -55%);
+	}
+	.facilities .facilities-head-nsl h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1rem;
+		color: #A01F40;
+	}
+	
+	.video-gallery-slider .video-gallery iframe{
+		height: 18rem; 
+		width:100%;
+	}
+	
+	.slogan-content{
+		padding: 1rem 1rem 0.5rem 1rem;
+		background-color: #A01F40;
+		color: #fff;
+		font-family: "Carter One";
+	}
+	.slogan-content marquee{
+		margin-top:5px 0px; 
+	}
+	.slogan-content marquee div{
+		font-size:2rem;
+		padding:2rem;
+		font-weight:bold; 
+	}
+	.govtlogo .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.govtlogo .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	.footer .footer-heading h4{
+		font-size: 1rem;
+	}
+	.footer .footer-reach-us{
+		margin-bottom: 5px;
+	}
+	.footer .footer-reach-us .footer-institute-name{
+		font-size: 0.7rem;
+		padding: 2px;
+	}
+	.footer-reach-us address {
+		font-size: 0.7rem;
+	}
+	.footer .footer-reach-us .footer-map{
+		height: 80px;
+	}
+	.footer .footer-social-icon a img{
+		height: 35%;
+		width: 35%;
+	}
+	.footer-mobile-app a img{
+		height: 35%;
+		width: 35%;
+	}
+	.footer .online-services{
+		font-size: 0.7rem;
+		margin-bottom: 5px;
+		padding: 5.5px;
+	}
+	.visitors-list{
+		font-size: 0.7rem;
+	}
+	.footer .footer-email{
+		font-size: 0.7rem;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	
+	/* Mobile Menu */
+	.mobile-menu{
+		position:absolute;
+		top: -121px;
+		z-index: 999;
+		width: 100%;
+	}
+	/* Mobile Menu */
+
+	/* Header Text */
+	.csir-logo img{
+		margin: 10px 0px;
+	}
+
+	.niscair-logo img{
+		margin: 34px 0px;
+	}
+
+	.header-institute-text{
+		padding: 29px 0px;
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.header-institute-text .first-para{
+		margin-bottom: 0px;
+	}
+	/* Header Text */
+
+	/*  Announcements Div */
+	.announcements-div{
+		margin-top: 5px;
+		height: 270px;
+	}
+
+	.announcements-div marquee{
+		height: 210px;
+	}
+	/* Announcements Div */
+
+	.video-container{
+		margin-top: 2px;
+		height: 30vh;
+	}
+
+	#announcement-pannel{
+		margin-top:2px;
+		overflow: hidden;
+		height: 30vh;
+	}
+
+	#video-bg {
+	  position: relative;
+	  width: 100%;
+	  background: transparent url(video-bg.jpg) no-repeat;
+	  background-size: cover;
+	  object-fit:fill;
+	  height: 100%;
+	}
+	video {
+	  display: block;
+	}
+	
+	.overlayText {
+		top:90%;
+	}
+
+	.container{
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+
+	.nis-box-shadow{
+		padding:0.5rem;
+	}
+
+	.header .tophead ul li a {
+		font-size: 12px;
+	}
+
+	.header .tophead .language{
+		margin-top: 0.5rem;
+	}
+	.header .tophead .social{
+		padding: 0.2rem;
+		text-align:right;
+	}
+	.header .tophead .social li form{
+		margin-left: 5px;
+	}
+	.header .tophead .social li form input{
+		padding: 0.175rem .70rem;
+		width: 10rem
+	}
+	.header .tophead .social .top-search-button{
+		padding: 0.230rem 0.6rem;
+		margin-left:2px;
+	}
+	
+	.header .nav li a{
+		font-size: 0.55rem;
+		padding: 5px 4px;
+	}
+	.header .nav li:hover a, 
+	.header .nav li.active a{
+		font-size: 0.55rem;
+		padding: 3px 2px;
+	}
+	.header .nav li a i{
+		margin-left: 1px;
+	}
+	
+	.header .nav li .dropdown {
+		width: 100px;
+	}
+	
+	.header .nav li .dropdown li a {
+		padding: 2px 5px;
+	}
+
+	.section-title-new h4 {
+		font-size: 1rem;
+	}
+	.section-title h4{
+		font-size: 1rem;
+	}
+	
+	.csr-content h4{
+		font-size: 0.6rem;
+	}
+	
+	.highlights{
+		padding: 0rem 0.3rem;
+		max-height:29rem;
+		overflow-y: scroll;
+	}
+	.highlights .highlights-header h6{
+		font-size: 1rem;
+	}
+	.highlights .highlights-footer p{
+		font-size: 0.8rem;
+	}
+	
+	.visionaries-slider{
+		max-height:28rem;
+		overflow-y: scroll;
+	}
+	.visionaries-slider .visionaries-image img{
+		height: 11rem;
+	}
+	.visionaries-slider .visionaries-text p{
+		font-size: 0.8rem;
+	}
+	.visionaries-slider .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	.visionaries-slider .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	
+	.science-aaj-kal iframe{
+		height: 12rem; 
+		width:100%;
+	}
+
+	.announcement-marquee{
+		padding: 0rem 0.3rem;
+	}
+	.announcement-marquee ul li a{
+		font-size: 0.9rem;
+	}
+	
+	.events .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.events .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	
+	.publication .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .single-publication img{
+		height: 23rem;
+		width: 100%;
+	}
+	
+	.facilities .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .single-facilities img {
+		height: 18rem;
+		width: 100%;
+	}
+	.facilities .facilities-head{
+		position: absolute;
+		top: 94%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.facilities .facilities-head h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1rem;
+	}
+	
+	.facilities .facilities-head-nsl{
+		position: absolute;
+		top: 94%;
+		left: 45%;
+		transform: translate(-45%, -55%);
+	}
+	.facilities .facilities-head-nsl h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1rem;
+		color: #A01F40;
+	}
+	
+	.video-gallery-slider .video-gallery iframe{
+		height: 18rem; 
+		width:100%;
+	}
+	
+	.slogan-content{
+		padding: 1rem 1rem 0.5rem 1rem;
+		background-color: #A01F40;
+		color: #fff;
+		font-family: "Carter One";
+	}
+	.slogan-content marquee{
+		margin-top:5px 0px; 
+	}
+	.slogan-content marquee div{
+		font-size:2rem;
+		padding:2rem;
+		font-weight:bold; 
+	}
+	.govtlogo .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.govtlogo .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+
+	/* Mobile Menu */
+	.mobile-menu{
+		position:absolute;
+		top: -114px;
+		z-index: 999;
+		width: 100%;
+		right: 5px;
+	}
+	/* Mobile Menu */
+
+	.header .tophead .language{
+		margin: 0px;
+		text-align: center;
+	}
+
+	/* Header Text */
+	.csir-logo img{
+		margin: 10px 0px;
+	}
+
+	.niscair-logo img{
+		margin: 17px 0px;
+	}
+
+	.header-institute-text{
+		padding: 10px 0px;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.header-institute-text .first-para{
+		margin-bottom: -11px;
+	}
+	/* Header Text */
+
+	.header .tophead .social li:last-child{
+		display: block;
+		margin-right:0px;
+		margin-top: 0.3rem;
+		margin-bottom: 0.3rem;
+	}
+	
+	.top-social-list{
+        width:30%;
+        text-align:center;
+    }
+	
+	.header .tophead ul li a {
+		font-size: 0.97rem;
+	}
+	.header .tophead .social li form{
+		margin-left: 5px;
+	}
+	.header .tophead .social li form input{
+		padding: 0.175rem .70rem;
+		width:calc(100% - 97px);
+		width:-webkit-calc(100% - 97px);
+		width:-moz-calc(100% - 97px);
+		width:-o-calc(100% - 97px);
+	}
+	
+	.header .tophead .social .top-search-button{
+		padding: 0.230rem 0.6rem;
+		margin-left:2px;
+	}
+
+	.annual-image img{
+		height: 70vh;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+	/* Mobile Menu */
+	.mobile-menu{
+		position:absolute;
+		top: -105px;
+		z-index: 999;
+		width: 100%;
+		right: 5px;
+	}
+	/* Mobile Menu */
+
+	.header .tophead .language{
+		margin: 0px;
+		text-align: center;
+	}
+
+	/* Header Text */
+	.csir-logo img{
+		margin: 10px 0px;
+	}
+
+	.niscair-logo img{
+		margin: 17px 0px;
+	}
+
+	.header-institute-text{
+		padding: 10px 0px;
+		font-size: 11px;
+		text-align: center;
+	}
+
+	.header-institute-text .first-para{
+		margin-bottom: -11px;
+	}
+	/* Header Text */
+
+	.header .tophead .social li:last-child{
+		display: block;
+		margin-right:0px;
+		margin-top: 0.3rem;
+		margin-bottom: 0.3rem;
+	}
+    
+    .top-social-list{
+        width:30%;
+        text-align:center;
+    }
+    
+	.header .tophead .social li form{
+		margin-left: 5px;
+	}
+	
+	.header .tophead .social li form input{
+		padding: 0.175rem .70rem;
+		width:calc(100% - 97px);
+		width:-webkit-calc(100% - 97px);
+		width:-moz-calc(100% - 97px);
+		width:-o-calc(100% - 97px);
+	}
+	
+	.header .tophead .social .top-search-button{
+		padding: 0.230rem 0.6rem;
+		margin-left:2px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+
+	.overlayText {
+		top:83%;
+		font-size: 1rem;
+	}
+	
+	.container{
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+	.container .row{
+		margin-right: 0rem;
+		margin-left: 0rem;
+	}
+	
+	.container .row .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+		padding-right: 0rem;
+		padding-left: 0rem;
+	}
+	
+	.header .tophead .language{
+		margin: 0px;
+		text-align: center;
+	}
+
+	.header .tophead ul li a {
+		font-size: 0.8rem;
+	}
+		
+	.header .tophead .social li:last-child{
+		display: block;
+		margin-right:0px;
+		margin-top: 0.3rem;
+		margin-bottom: 0.3rem;
+	}
+
+    .top-social-list{
+        width:30%;
+        text-align:center;
+    }
+
+	.header .tophead .social li form{
+		margin-left: 5px;
+	}
+	.header .tophead .social li form input{
+		padding: 0.175rem .70rem;
+		width:calc(100% - 97px);
+		width:-webkit-calc(100% - 97px);
+		width:-moz-calc(100% - 97px);
+		width:-o-calc(100% - 97px);
+	}
+	.header .tophead .social .top-search-button{
+		padding: 0.230rem 0.6rem;
+		margin-left:2px;
+	}
+	
+	.mobile-menu{
+		position:absolute;
+		top:-114px;
+		width: 100%;
+		z-index: 999;
+	}
+
+	.header .nav li a{
+		font-size: 0.7rem;
+	}
+
+	/* Header Text */
+	.csir-logo img{
+		margin: 10px 0px;
+	}
+
+	.niscair-logo img{
+		margin: 17px 0px;
+	}
+
+	.header-institute-text{
+		padding: 10px 0px;
+		font-size: 10px;
+		text-align: center;
+	}
+
+	.header-institute-text .first-para{
+		margin-bottom: -11px;
+	}
+	/* Header Text */
+
+	.slicknav_row, .slicknav_nav a {
+		font-size: 0.7rem;
+	}
+
+	.slicknav_btn{
+		top:0.7rem;
+		right:0%;
+	}
+	
+	.nis-box-shadow{
+		padding:0.5rem;
+	}
+	.section-title-new h4 {
+		font-size: 1rem;
+	}
+	.section-title h4{
+		font-size: 1rem;
+	}
+	
+	.csr-content h4{
+		font-size: 0.5rem;
+	}
+	
+	.highlights{
+		padding: 0rem 0.3rem;
+		max-height:20rem;
+		overflow-y: scroll;
+	}
+	.highlights .highlights-header h6{
+		font-size: 1rem;
+	}
+	.highlights .highlights-footer p{
+		font-size: 0.8rem;
+	}
+	.visionaries-slider .visionaries-text p{
+		font-size: 0.8rem;
+	}
+	
+	.visionaries-slider .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	.visionaries-slider .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+	}
+	
+	.science-aaj-kal iframe{
+		height: 14rem; 
+		width:100%;
+	}
+	
+	.announcement-marquee{
+		padding: 0rem 0.3rem;
+	}
+	.announcement-marquee ul li a{
+		font-size: 0.8rem;
+	}
+
+	.events .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.events .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.publication .single-publication img{
+		height: 17rem;
+		width: 100%;
+	}
+	
+	.facilities .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.facilities .single-facilities img {
+		height: 17rem;
+		width: 100%;
+	}
+	.facilities .facilities-head{
+		position: absolute;
+		top: 94%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.facilities .facilities-head h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1rem;
+	}
+	
+	.facilities .facilities-head-nsl{
+		position: absolute;
+		top: 94%;
+		left: 32.5%;
+		transform: translate(-32.5%, -67.5%);
+	}
+	.facilities .facilities-head-nsl h1 {
+		text-shadow: 2px 2px 8px #fff;
+		font-size: 1rem;
+		color: #A01F40;
+	}
+	
+	.video-gallery-slider .video-gallery iframe{
+		height: 14rem; 
+		width:100%;
+	}
+	
+	.slogan-content{
+		padding: 1rem 1rem 0.5rem 1rem;
+		background-color: #A01F40;
+		color: #fff;
+		font-family: "Carter One";
+	}
+	.slogan-content marquee{
+		margin-top:5px 0px; 
+	}
+	.slogan-content marquee div{
+		font-size:2rem;
+		padding:2rem;
+		font-weight:bold; 
+	}
+	
+	.govtlogo .owl-controls .owl-nav .owl-prev {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+	.govtlogo .owl-controls .owl-nav .owl-next {
+		padding: 0.2rem 1rem;
+		font-size: 1rem;
+		background-color:#1035AC;
+		color: #fff;
+	}
+
+	.footer .footer-heading h4{
+		font-size: 1rem;
+	}
+	.footer .footer-reach-us .footer-institute-name{
+		font-size: 1rem;
+	}
+	.footer .footer-reach-us{
+		margin-bottom: 5px;
+	}
+	.footer-reach-us address {
+		font-size: 0.9rem;
+		padding: 5px;
+	}
+	.footer .footer-social-icon a img{
+		height: 30vw;
+		width: 30vw;
+		margin-bottom: 4vw;
+	}
+	.footer-mobile-app{
+		margin: 0px;
+	}
+	.footer-mobile-app a img{
+		height: 30vw;
+		width: 30vw;
+	}
+	.visitors-list{
+		margin-top: 4vw;
+	}
+	.footer .online-services{
+		font-size: 1rem;
+	}
+	
+	#scrollUp {
+		right: 1rem;
+		width: 1.5rem;
+		height: 1.5rem;
+		line-height: 1.5rem;
+		z-index: 33;
+		font-size: 1.5rem;
+		bottom: 1rem;
+		text-align: center;
+		border-radius: 100%;
+		-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+		-moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+		box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+		color: #ffff;
+	}
+}
