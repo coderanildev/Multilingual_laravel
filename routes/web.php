@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\DashboardController;
 use App\Http\Controllers\Auth\AdminController;
+use App\Http\Controllers\Auth\TenderController;
+use App\Http\Controllers\Auth\JobController;
+use App\Http\Controllers\Auth\NewnotificationController;
 use App\Http\Controllers\FacilitiesController;
 
 use App\Http\Controllers\LangSwitchController;
@@ -24,20 +27,15 @@ Route::get('/', function () {
     if (!Session::has('sess_lang')) {
         Session::put('sess_lang', 'hindi'); // default language
     }
-    return view('welcome'); 
-})->name('welcome');
+    return view('frontend.home'); 
+})->name('home');
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login']);
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
-Route::middleware(['auth'])
-    ->prefix('dashboard')
-    ->name('dashboard.')
-    ->group(function () {
-
+Route::middleware(['auth'])->prefix('dashboard')->name('dashboard.')->group(function () {
         Route::get('/', [DashboardController::class, 'index'])->name('index');
-        Route::get('/tender', [DashboardController::class, 'tender'])->name('tender');
         Route::get('/jobs', [DashboardController::class, 'jobs'])->name('jobs');
         Route::get('/notifications', [DashboardController::class, 'notifications'])->name('notifications');
         Route::get('/announcements', [DashboardController::class, 'announcements'])->name('announcements');
@@ -50,6 +48,29 @@ Route::middleware(['auth'])
         Route::put('/language/update/{id}', [AdminController::class, 'editLanguage'])->name('language.update');
 
         Route::delete('/language/delete/{id}', [AdminController::class, 'deleteLanguage'])->name('language.delete');
+
+        Route::get('/tender', [TenderController::class, 'index'])->name('tender.index');
+        Route::post('/tender/store', [TenderController::class, 'store'])->name('tender.store');
+        Route::post('/tender/status-change', [TenderController::class, 'statusChange'])->name('tender.status');
+        Route::get('/tender/edit/{id}', [TenderController::class, 'edit'])->name('tender.edit');
+        Route::post('/tender/update/{id}', [TenderController::class, 'update'])->name('tender.update');
+        Route::delete('/tender/delete/{id}', [TenderController::class, 'delete'])->name('tender.delete');
+
+        // Job CRUD (mirrors Tender)
+        Route::get('/job', [JobController::class, 'index'])->name('job.index');
+        Route::post('/job/store', [JobController::class, 'store'])->name('job.store');
+        Route::post('/job/status-change', [JobController::class, 'statusChange'])->name('job.status');
+        Route::get('/job/edit/{id}', [JobController::class, 'edit'])->name('job.edit');
+        Route::post('/job/update/{id}', [JobController::class, 'update'])->name('job.update');
+        Route::delete('/job/delete/{id}', [JobController::class, 'delete'])->name('job.delete');
+
+        // Newnotification CRUD (mirrors Tender)
+        Route::get('/newnotification', [NewnotificationController::class, 'index'])->name('newnotification.index');
+        Route::post('/newnotification/store', [NewnotificationController::class, 'store'])->name('newnotification.store');
+        Route::post('/newnotification/status-change', [NewnotificationController::class, 'statusChange'])->name('newnotification.status');
+        Route::get('/newnotification/edit/{id}', [NewnotificationController::class, 'edit'])->name('newnotification.edit');
+        Route::post('/newnotification/update/{id}', [NewnotificationController::class, 'update'])->name('newnotification.update');
+        Route::delete('/newnotification/delete/{id}', [NewnotificationController::class, 'delete'])->name('newnotification.delete');
 
 });
 

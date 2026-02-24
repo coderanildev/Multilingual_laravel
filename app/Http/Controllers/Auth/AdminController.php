@@ -25,7 +25,7 @@ class AdminController extends Controller
         // Pagination
         $labels = $query->paginate(10);
 
-        return view('dashboard.language', compact('labels'));
+        return view('backend.dashboard.language', compact('labels'));
     }
 
 
@@ -93,7 +93,7 @@ class AdminController extends Controller
         $label = KtLabel::where('kt_label_id', $id)->first();
         $subLabel = KtLangSubLabel::where('kt_label_id', $id)->first();
 
-        return view('dashboard.language_edit', compact('label', 'subLabel'));
+        return view('backend.dashboard.language_edit', compact('label', 'subLabel'));
     }
 
 

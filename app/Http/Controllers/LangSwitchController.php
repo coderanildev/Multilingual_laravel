@@ -39,7 +39,7 @@ class LangSwitchController extends Controller
 
         $this->langVisitors($request->controller, $request->page);
 
-        return redirect()->route('welcome');
+        return redirect()->route('home');
 
     }
 
