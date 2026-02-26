@@ -40,10 +40,11 @@
           <span class="sidebar-text">Dashboard</span>
         </a>
       </li>
+    
       <li class="nav-item">
-          <a href="{{ route('dashboard.language') }}" class="nav-link">
-              <span class="sidebar-icon"><i class="fas fa-language me-2"></i></span>
-              <span class="sidebar-text">Language</span>
+          <a href="{{ route('dashboard.job.index') }}" class="nav-link">
+              <span class="sidebar-icon"><i class="fas fa-briefcase me-2"></i></span>
+              <span class="sidebar-text">Jobs</span>
           </a>
       </li>
 
@@ -53,18 +54,25 @@
               <span class="sidebar-text">Tender</span>
           </a>
       </li>
-
+ 
       <li class="nav-item">
-          <a href="{{ route('dashboard.job.index') }}" class="nav-link">
-              <span class="sidebar-icon"><i class="fas fa-briefcase me-2"></i></span>
-              <span class="sidebar-text">Jobs</span>
+          <a href="{{ route('dashboard.language') }}" class="nav-link">
+              <span class="sidebar-icon"><i class="fas fa-language me-2"></i></span>
+              <span class="sidebar-text">Language</span>
           </a>
       </li>
 
       <li class="nav-item">
-          <a href="{{ route('dashboard.newnotification.index') }}" class="nav-link">
-              <span class="sidebar-icon"><i class="fas fa-bell me-2"></i></span>
-              <span class="sidebar-text">New Notifications</span>
+          <a href="{{ route('dashboard.employees.index') }}" class="nav-link">
+              <span class="sidebar-icon"><i class="fas fa-users me-2"></i></span>
+              <span class="sidebar-text">Employees</span>
+          </a>
+      </li>
+
+      <li class="nav-item">
+          <a href="{{ route('dashboard.whatsnew.index') }}" class="nav-link">
+              <span class="sidebar-icon"><i class="fas fa-star me-2"></i></span>
+              <span class="sidebar-text">What’s New</span>
           </a>
       </li>
 
@@ -74,21 +82,12 @@
               <span class="sidebar-text">Announcements</span>
           </a>
       </li>
-
       <li class="nav-item">
-          <a href="{{ route('dashboard.employees') }}" class="nav-link">
-              <span class="sidebar-icon"><i class="fas fa-users me-2"></i></span>
-              <span class="sidebar-text">Employees</span>
+          <a href="{{ route('dashboard.newnotification.index') }}" class="nav-link">
+              <span class="sidebar-icon"><i class="fas fa-bell me-2"></i></span>
+              <span class="sidebar-text">New Notifications</span>
           </a>
       </li>
-
-      <li class="nav-item">
-          <a href="{{ route('dashboard.whats-new') }}" class="nav-link">
-              <span class="sidebar-icon"><i class="fas fa-star me-2"></i></span>
-              <span class="sidebar-text">What’s New</span>
-          </a>
-      </li>
-
 
 
     </ul>

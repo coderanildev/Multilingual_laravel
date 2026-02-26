@@ -7,6 +7,8 @@ use App\Http\Controllers\Auth\AdminController;
 use App\Http\Controllers\Auth\TenderController;
 use App\Http\Controllers\Auth\JobController;
 use App\Http\Controllers\Auth\NewnotificationController;
+use App\Http\Controllers\Auth\WhatsNewController;
+use App\Http\Controllers\Auth\EmployeeController;
 use App\Http\Controllers\FacilitiesController;
 
 use App\Http\Controllers\LangSwitchController;
@@ -35,42 +37,60 @@ Route::post('/login', [LoginController::class, 'login']);
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth'])->prefix('dashboard')->name('dashboard.')->group(function () {
-        Route::get('/', [DashboardController::class, 'index'])->name('index');
-        Route::get('/jobs', [DashboardController::class, 'jobs'])->name('jobs');
-        Route::get('/notifications', [DashboardController::class, 'notifications'])->name('notifications');
-        Route::get('/announcements', [DashboardController::class, 'announcements'])->name('announcements');
-        Route::get('/employees', [DashboardController::class, 'employees'])->name('employees');
-        Route::get('/whats-new', [DashboardController::class, 'whatsNew'])->name('whats-new');
+    Route::get('/', [DashboardController::class, 'index'])->name('index');
+    Route::get('/jobs', [DashboardController::class, 'jobs'])->name('jobs');
+    Route::get('/notifications', [DashboardController::class, 'notifications'])->name('notifications');
+    Route::get('/announcements', [DashboardController::class, 'announcements'])->name('announcements');
 
-        Route::get('/language', [AdminController::class, 'language'])->name('language');
-        Route::post('/language/store', [AdminController::class, 'storeLanguage'])->name('language.store');
-        Route::get('/language/edit/{id}', [AdminController::class, 'languageEdit'])->name('language.edit');
-        Route::put('/language/update/{id}', [AdminController::class, 'editLanguage'])->name('language.update');
+    // language CRUD
+    Route::get('/language', [AdminController::class, 'language'])->name('language');
+    Route::post('/language/store', [AdminController::class, 'storeLanguage'])->name('language.store');
+    Route::get('/language/edit/{id}', [AdminController::class, 'languageEdit'])->name('language.edit');
+    Route::put('/language/update/{id}', [AdminController::class, 'editLanguage'])->name('language.update');
+    Route::delete('/language/delete/{id}', [AdminController::class, 'deleteLanguage'])->name('language.delete');
+    
+    // Tender CRUD
+    Route::get('/tender', [TenderController::class, 'index'])->name('tender.index');
+    Route::post('/tender/store', [TenderController::class, 'store'])->name('tender.store');
+    Route::post('/tender/status-change', [TenderController::class, 'statusChange'])->name('tender.status');
+    Route::get('/tender/edit/{id}', [TenderController::class, 'edit'])->name('tender.edit');
+    Route::post('/tender/update/{id}', [TenderController::class, 'update'])->name('tender.update');
+    Route::delete('/tender/delete/{id}', [TenderController::class, 'delete'])->name('tender.delete');
 
-        Route::delete('/language/delete/{id}', [AdminController::class, 'deleteLanguage'])->name('language.delete');
+    // Job CRUD 
+    Route::get('/job', [JobController::class, 'index'])->name('job.index');
+    Route::post('/job/store', [JobController::class, 'store'])->name('job.store');
+    Route::post('/job/status-change', [JobController::class, 'statusChange'])->name('job.status');
+    Route::get('/job/edit/{id}', [JobController::class, 'edit'])->name('job.edit');
+    Route::post('/job/update/{id}', [JobController::class, 'update'])->name('job.update');
+    Route::delete('/job/delete/{id}', [JobController::class, 'delete'])->name('job.delete');
 
-        Route::get('/tender', [TenderController::class, 'index'])->name('tender.index');
-        Route::post('/tender/store', [TenderController::class, 'store'])->name('tender.store');
-        Route::post('/tender/status-change', [TenderController::class, 'statusChange'])->name('tender.status');
-        Route::get('/tender/edit/{id}', [TenderController::class, 'edit'])->name('tender.edit');
-        Route::post('/tender/update/{id}', [TenderController::class, 'update'])->name('tender.update');
-        Route::delete('/tender/delete/{id}', [TenderController::class, 'delete'])->name('tender.delete');
+    // Newnotification CRUD
+    Route::get('/newnotification', [NewnotificationController::class, 'index'])->name('newnotification.index');
+    Route::post('/newnotification/store', [NewnotificationController::class, 'store'])->name('newnotification.store');
+    Route::post('/newnotification/status-change', [NewnotificationController::class, 'statusChange'])->name('newnotification.status');
+    Route::get('/newnotification/edit/{id}', [NewnotificationController::class, 'edit'])->name('newnotification.edit');
+    Route::post('/newnotification/update/{id}', [NewnotificationController::class, 'update'])->name('newnotification.update');
+    Route::delete('/newnotification/delete/{id}', [NewnotificationController::class, 'delete'])->name('newnotification.delete');
+    
+    // whatsnew CRUD
+    Route::get('whatsnew', [WhatsNewController::class, 'index'])->name('whatsnew.index');
+    Route::post('whatsnew/store', [WhatsNewController::class, 'store'])->name('whatsnew.store');
+    Route::post('whatsnew/status-change', [WhatsNewController::class, 'statusChange'])->name('whatsnew.status');
+    Route::delete('whatsnew/{id}', [WhatsNewController::class, 'destroy'])->name('whatsnew.delete');
+    Route::get('whatsnew/edit/{id}', [WhatsNewController::class, 'edit'])->name('whatsnew.edit');
+    Route::post('whatsnew/update/{id}', [WhatsNewController::class, 'update'])->name('whatsnew.update');
 
-        // Job CRUD (mirrors Tender)
-        Route::get('/job', [JobController::class, 'index'])->name('job.index');
-        Route::post('/job/store', [JobController::class, 'store'])->name('job.store');
-        Route::post('/job/status-change', [JobController::class, 'statusChange'])->name('job.status');
-        Route::get('/job/edit/{id}', [JobController::class, 'edit'])->name('job.edit');
-        Route::post('/job/update/{id}', [JobController::class, 'update'])->name('job.update');
-        Route::delete('/job/delete/{id}', [JobController::class, 'delete'])->name('job.delete');
-
-        // Newnotification CRUD (mirrors Tender)
-        Route::get('/newnotification', [NewnotificationController::class, 'index'])->name('newnotification.index');
-        Route::post('/newnotification/store', [NewnotificationController::class, 'store'])->name('newnotification.store');
-        Route::post('/newnotification/status-change', [NewnotificationController::class, 'statusChange'])->name('newnotification.status');
-        Route::get('/newnotification/edit/{id}', [NewnotificationController::class, 'edit'])->name('newnotification.edit');
-        Route::post('/newnotification/update/{id}', [NewnotificationController::class, 'update'])->name('newnotification.update');
-        Route::delete('/newnotification/delete/{id}', [NewnotificationController::class, 'delete'])->name('newnotification.delete');
+    // employees CRUD
+    Route::get('/employees', [EmployeeController::class, 'index'])->name('employees.index');
+    Route::get('/employees/create', [EmployeeController::class, 'create'])->name('employees.create');
+    Route::post('/employees/store', [EmployeeController::class, 'store'])->name('employees.store');
+    Route::get('/employees/edit/{id}', [EmployeeController::class, 'edit'])->name('employees.edit');
+    Route::post('/employees/update/{id}', [EmployeeController::class, 'update'])->name('employees.update');
+    Route::post('/employees/crop-image', [EmployeeController::class, 'cropImage'])->name('employees.crop');
+    Route::post('/employees/delete-crop-image', [EmployeeController::class, 'deleteCropImage'])->name('employees.deleteCrop');
+    Route::delete('/employees/delete/{id}', [EmployeeController::class, 'destroy'])->name('employees.delete');
+    Route::get('/employees/view/{id}', [EmployeeController::class, 'view'])->name('employees.view');
 
 });
 

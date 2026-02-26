@@ -24,7 +24,18 @@
     <link rel="stylesheet" href="{{ asset('vendor/notyf/notyf.min.css') }}">
 
     <!-- Volt CSS -->
-    <link rel="stylesheet" href="{{ asset('css/volt.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/backendmain.css') }}">
+    
+  
+
+    
+    <!-- jQuery FIRST -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+     <script src="{{ asset('assets/js/ckeditor/ckeditor.js') }}"></script>
 </head>
 <body>
     @yield('body')
@@ -63,6 +74,8 @@
 
     <!-- Volt JS -->
     <script src="{{ asset('assets/js/volt.js') }}"></script>
+
+
 
 </body>
 </html>
