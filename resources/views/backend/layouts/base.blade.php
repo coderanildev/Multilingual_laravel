@@ -73,7 +73,7 @@
     <script src="{{ asset('assets/js/simplebar.min.js') }}"></script>
 
     <!-- Volt JS -->
-    <script src="{{ asset('assets/js/volt.js') }}"></script>
+    <script src="{{ asset('assets/js/backendmain.js') }}"></script>
 
 
 

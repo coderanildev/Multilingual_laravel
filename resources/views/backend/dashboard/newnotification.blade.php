@@ -130,7 +130,7 @@
                                             @csrf
                                             <input type="hidden" name="id" value="{{ $value->id }}">
                                             <input type="hidden" name="newnotification_status" value="1">
-                                            <button class="btn btn-sm btn-success">Archive</button>
+                                            <button class="btn btn-sm btn-success text-white">Archive</button>
                                         </form>
                                     @endif
 
@@ -139,7 +139,7 @@
                                             @csrf
                                             <input type="hidden" name="id" value="{{ $value->id }}">
                                             <input type="hidden" name="newnotification_status" value="2">
-                                            <button class="btn btn-sm btn-info">Move to New</button>
+                                            <button class="btn btn-sm btn-info text-white">Move to New</button>
                                         </form>
                                     @endif
 
@@ -148,14 +148,17 @@
                                             @csrf
                                             @method('DELETE')
 
-                                            <button type="submit" style="border:none; background:none; color:red;">
-                                                <i class="fas fa-trash-alt" style="font-size:18px;"></i>
+                                            <button type="submit"
+                                                    class="btn btn-danger text-white mb-1 px-2 py-1 btn-xs"
+                                                    title="Delete">
+                                                <i class="fas fa-trash-alt"></i>
                                             </button>
                                         </form>
                                     @endif
 
-                                    <a href="{{ route('dashboard.newnotification.edit', $value->id) }}">
-                                         <i class="fas fa-edit me-2" style="font-size:18px;"></i>
+                                    <a href="{{ route('dashboard.newnotification.edit', $value->id) }}" class="btn btn-warning text-white mb-1 px-2 py-1 btn-xs"
+                                            title="Edit">
+                                            <i class="fas fa-edit"></i>
                                     </a>
 
                                 </td>

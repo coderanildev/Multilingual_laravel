@@ -60,8 +60,7 @@ class WhatsNewController extends Controller
     public function destroy($id)
     {
         $news = WhatsNew::findOrFail($id);
-        $news->status = 0;
-        $news->save();
+        $news->delete();
 
         return redirect()->back()->with('success', 'Deleted Successfully');
     }

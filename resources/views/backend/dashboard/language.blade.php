@@ -78,8 +78,9 @@
     </div>
 
     <!-- Table -->
-    <table class="table table-hover">
-        <thead>
+    <div class="table-responsive">
+     <table class="table table-hover align-items-center mb-0">
+        <thead class="table-light">
             <tr>
                 <th style="width:5%">#</th>
                 <th style="width:20%">Label Name</th>
@@ -112,24 +113,26 @@
                         </span>
                     </td>
 
-                    <td>
-                        <div class="btn-group">
-                            <div>
-                                <a class="dropdown-item"
-                                   href="{{ route('dashboard.language.edit', $label->kt_label_id) }}">
-                                    <i class="fas fa-edit me-2"></i> Edit
-                                </a>
+                    <td class="action-buttons d-flex gap-1">
 
-                                <form action="{{ route('dashboard.language.delete', $label->kt_label_id) }}"
-                                      method="POST">
-                                    @csrf
-                                    @method('DELETE')
-                                    <button class="dropdown-item text-danger" disabled>
-                                        <i class="fas fa-trash me-2"></i> Delete
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
+                        <a href="{{ route('dashboard.language.edit', $label->kt_label_id) }}"
+                        class="btn btn-warning text-white btn-sm"
+                        title="Edit">
+                            <i class="fas fa-edit"></i>
+                        </a>
+
+                        <form action="{{ route('dashboard.language.delete', $label->kt_label_id) }}"
+                            method="POST"
+                            onsubmit="return confirm('Are you sure?')">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit"
+                                    class="btn btn-danger btn-sm"
+                                    title="Delete">
+                                 <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </form>
+
                     </td>
                 </tr>
             @empty
@@ -141,6 +144,7 @@
             @endforelse
         </tbody>
     </table>
+    <d/iv>
 
     <!-- Pagination -->
     <div class="card-footer px-3 border-0 d-flex flex-column flex-lg-row align-items-center justify-content-between">

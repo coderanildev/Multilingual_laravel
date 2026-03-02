@@ -7,8 +7,10 @@ use App\Http\Controllers\Auth\AdminController;
 use App\Http\Controllers\Auth\TenderController;
 use App\Http\Controllers\Auth\JobController;
 use App\Http\Controllers\Auth\NewnotificationController;
+use App\Http\Controllers\Auth\NewannouncementController; 
 use App\Http\Controllers\Auth\WhatsNewController;
 use App\Http\Controllers\Auth\EmployeeController;
+use App\Http\Controllers\Auth\SliderController;
 use App\Http\Controllers\FacilitiesController;
 
 use App\Http\Controllers\LangSwitchController;
@@ -72,6 +74,23 @@ Route::middleware(['auth'])->prefix('dashboard')->name('dashboard.')->group(func
     Route::get('/newnotification/edit/{id}', [NewnotificationController::class, 'edit'])->name('newnotification.edit');
     Route::post('/newnotification/update/{id}', [NewnotificationController::class, 'update'])->name('newnotification.update');
     Route::delete('/newnotification/delete/{id}', [NewnotificationController::class, 'delete'])->name('newnotification.delete');
+    
+    // Newannouncement CRUD
+    Route::get('/newannouncement', [NewannouncementController::class, 'index'])->name('newannouncement.index');
+    Route::post('/newannouncement/store', [NewannouncementController::class, 'store'])->name('newannouncement.store');
+    Route::post('/newannouncement/status-change', [NewannouncementController::class, 'statusChange'])->name('newannouncement.status');
+    Route::get('/newannouncement/edit/{id}', [NewannouncementController::class, 'edit'])->name('newannouncement.edit');
+    Route::post('/newannouncement/update/{id}', [NewannouncementController::class, 'update'])->name('newannouncement.update');
+    Route::delete('/newannouncement/delete/{id}', [NewannouncementController::class, 'delete'])->name('newannouncement.delete');
+    
+    // Slider CRUD
+    Route::get('/slider', [SliderController::class, 'index'])->name('slider.index');
+    Route::post('/slider/store', [SliderController::class, 'store'])->name('slider.store');
+    Route::post('/slider/status-change', [SliderController::class, 'statusChange'])->name('slider.status');
+    Route::get('/slider/edit/{id}', [SliderController::class, 'edit'])->name('slider.edit');
+    Route::post('/slider/update/{id}', [SliderController::class, 'update'])->name('slider.update');
+    Route::delete('/slider/delete/{id}', [SliderController::class, 'delete'])->name('slider.delete');
+    Route::delete('/slider/delete/{id}', [SliderController::class, 'delete'])->name('slider.delete');
     
     // whatsnew CRUD
     Route::get('whatsnew', [WhatsNewController::class, 'index'])->name('whatsnew.index');

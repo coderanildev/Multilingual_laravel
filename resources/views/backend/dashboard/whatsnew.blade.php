@@ -169,7 +169,7 @@
                                             @csrf
                                             <input type="hidden" name="id" value="{{ $news->id }}">
                                             <input type="hidden" name="status" value="1">
-                                            <button class="btn btn-sm btn-success">
+                                            <button class="btn btn-sm btn-success text-white">
                                                 Archive
                                             </button>
                                         </form>
@@ -180,14 +180,14 @@
                                             @csrf
                                             <input type="hidden" name="id" value="{{ $news->id }}">
                                             <input type="hidden" name="status" value="3">
-                                            <button class="btn btn-sm btn-info">
+                                            <button class="btn btn-sm btn-info text-white">
                                                 Move to New
                                             </button>
                                         </form>
                                     @endif
-                                    <a href="{{ route('dashboard.whatsnew.edit', $news->id) }}" 
-                                        class="btn btn-sm btn-warning mb-1">
-                                        Edit
+                                    <a href="{{ route('dashboard.whatsnew.edit', $news->id) }}" class="btn btn-warning text-white mb-1 px-2 py-1 btn-xs"
+                                            title="Edit">
+                                            <i class="fas fa-edit"></i>
                                     </a>
                                     @if($news->status != 0)
                                         <form method="POST"
@@ -197,8 +197,9 @@
                                             @method('DELETE')
 
                                             <button type="submit"
-                                                    style="border:none; background:none; color:red;">
-                                                <i class="fas fa-trash-alt" style="font-size:18px;"></i>
+                                                    class="btn btn-danger text-white mb-1 px-2 py-1 btn-xs"
+                                                    title="Delete">
+                                                <i class="fas fa-trash-alt"></i>
                                             </button>
                                         </form>
                                     @endif

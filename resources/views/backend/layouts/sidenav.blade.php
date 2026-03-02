@@ -54,6 +54,13 @@
               <span class="sidebar-text">Tender</span>
           </a>
       </li>
+
+      <li class="nav-item">
+          <a href="{{ route('dashboard.slider.index') }}" class="nav-link">
+              <span class="sidebar-icon"><i class="fas fa-images me-2"></i></span>
+              <span class="sidebar-text">Sliders</span>
+          </a>
+      </li>
  
       <li class="nav-item">
           <a href="{{ route('dashboard.language') }}" class="nav-link">
@@ -88,6 +95,13 @@
               <span class="sidebar-text">New Notifications</span>
           </a>
       </li>
+      <li class="nav-item">
+          <a href="{{ route('dashboard.newannouncement.index') }}" class="nav-link">
+              <span class="sidebar-icon"><i class="fas fa-bullhorn me-2"></i></span>
+              <span class="sidebar-text">New Announcements</span>
+          </a>
+      </li>
+     
 
 
     </ul>

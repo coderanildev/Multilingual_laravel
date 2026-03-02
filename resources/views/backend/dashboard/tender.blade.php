@@ -181,7 +181,7 @@
                                             @csrf
                                             <input type="hidden" name="id" value="{{ $tender->id }}">
                                             <input type="hidden" name="tender_status" value="1">
-                                            <button class="btn btn-sm btn-success">
+                                            <button class="btn btn-sm btn-success text-white">
                                                 Archive
                                             </button>
                                         </form>
@@ -193,7 +193,7 @@
                                             @csrf
                                             <input type="hidden" name="id" value="{{ $tender->id }}">
                                             <input type="hidden" name="tender_status" value="2">
-                                            <button class="btn btn-sm btn-info">
+                                            <button class="btn btn-sm btn-info text-white">
                                                 Move to New
                                             </button>
                                         </form>
@@ -207,14 +207,16 @@
                                             @method('DELETE')
 
                                             <button type="submit"
-                                                    style="border:none; background:none; color:red;">
-                                                <i class="fas fa-trash-alt" style="font-size:18px;"></i>
+                                                    class="btn btn-danger text-white mb-1 px-2 py-1 btn-xs"
+                                                    title="Delete">
+                                                <i class="fas fa-trash-alt"></i>
                                             </button>
                                         </form>
                                     @endif
 
-                                    <a href="{{ route('dashboard.tender.edit', $tender->id) }}">
-                                         <i class="fas fa-edit me-2" style="font-size:18px;"></i>
+                                    <a href="{{ route('dashboard.tender.edit', $tender->id) }}" class="btn btn-warning text-white mb-1 px-2 py-1 btn-xs"
+                                            title="Edit">
+                                            <i class="fas fa-edit"></i>
                                     </a>
 
                                 </td>
