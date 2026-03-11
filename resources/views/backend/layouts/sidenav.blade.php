@@ -84,9 +84,9 @@
       </li>
 
       <li class="nav-item">
-          <a href="{{ route('dashboard.announcements') }}" class="nav-link">
-              <span class="sidebar-icon"><i class="fas fa-bullhorn me-2"></i></span>
-              <span class="sidebar-text">Announcements</span>
+          <a href="{{ route('dashboard.feedback.index') }}" class="nav-link">
+              <span class="sidebar-icon"><i class="fas fa-comments me-2"></i></span>
+              <span class="sidebar-text">Feedback</span>
           </a>
       </li>
       <li class="nav-item">

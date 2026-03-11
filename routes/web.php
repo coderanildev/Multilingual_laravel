@@ -11,6 +11,7 @@ use App\Http\Controllers\Auth\NewannouncementController;
 use App\Http\Controllers\Auth\WhatsNewController;
 use App\Http\Controllers\Auth\EmployeeController;
 use App\Http\Controllers\Auth\SliderController;
+use App\Http\Controllers\Auth\FeedbackController;
 use App\Http\Controllers\FacilitiesController;
 
 use App\Http\Controllers\LangSwitchController;
@@ -110,6 +111,12 @@ Route::middleware(['auth'])->prefix('dashboard')->name('dashboard.')->group(func
     Route::post('/employees/delete-crop-image', [EmployeeController::class, 'deleteCropImage'])->name('employees.deleteCrop');
     Route::delete('/employees/delete/{id}', [EmployeeController::class, 'destroy'])->name('employees.delete');
     Route::get('/employees/view/{id}', [EmployeeController::class, 'view'])->name('employees.view');
+
+    // Feedback CRUD
+    Route::get('feedback', [FeedbackController::class, 'index'])->name('feedback.index');
+    Route::delete('feedback/{id}', [FeedbackController::class, 'destroy'])->name('feedback.delete');
+    Route::get('feedback/view/{id}', [FeedbackController::class, 'view'])->name('feedback.view');
+  
 
 });
 
